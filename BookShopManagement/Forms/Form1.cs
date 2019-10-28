@@ -32,7 +32,7 @@ namespace BookShopManagement
         {
             using (Form_Dashboard fd = new Form_Dashboard())
             {
-                int absent = 0;
+                //int absent = 0;
                 fd.ShowDialog();
             }
         }
