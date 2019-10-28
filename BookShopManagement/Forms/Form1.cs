@@ -32,7 +32,7 @@ namespace BookShopManagement
         {
             using (Form_Dashboard fd = new Form_Dashboard())
             {
-                int i = 0;
+                int i = 5;
                 fd.ShowDialog();
             }
         }
