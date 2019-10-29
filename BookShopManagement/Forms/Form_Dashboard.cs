@@ -120,7 +120,10 @@ namespace BookShopManagement.Forms
 
         private void button7_Click(object sender, EventArgs e)
         {
-            moveSidePanel(btnSettings);
+            //moveSidePanel(btnSettings);
+            moveSidePanel(btnViewSales);
+            category c = new category();
+            AddControlsToPanel(c);
         }
 
         private void timerTime_Tick(object sender, EventArgs e)
